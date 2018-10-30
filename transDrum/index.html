@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="TrunsDrum" />
+    <title>TrunsDrum</title>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+        a {
+            font-size: 100%;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .canvasWrapper {
+            padding: 0px;
+            height: 100%;
+            overflow: scroll;
+        }
+    </style>
+
+</head>
+
+<body onload="init()">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper light-blue darken-4">
+                <a href="#!" class="brand-logo center">TransDrums: A Drum pattern transfer system preserving global pattern structure</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h3 class="blue-text text-darken-4 header">Demo</h3>
+            <div class="row">
+                <div class="col s12 m12">
+
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Target song (RWC-MDB-P-2001 [1], No. 15):</span>
+                            <div class="row">
+                                <div class="col s12">
+                                    <audio controls>
+                                        <source src="wav/015.wav" type="audio/wav">
+                                    </audio>
+                                </div>
+                            </div>
+                            <span class="card-title">Substituted song (RWC-MDB-P-2001 [1], No.5):</span>
+                            <div class="row">
+                                <div class="col s12">
+                                    <audio controls>
+                                        <source src="wav/005.wav" type="audio/wav">
+                                    </audio>
+                                </div>
+                            </div>
+                            <span class="card-title">Output song:</span>
+                            <div class="row">
+                                <div class="col s12">
+                                    <audio controls>
+                                        <source src="wav/005.wav" type="audio/wav">
+                                    </audio>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+[1] M. Goto, H. Hashiguchi, T. Nishimura, and R. Oka, “RWC music database: Popular, classical and jazz music databases,” in Proceedings of the 3rd International
+Conference on Music Information Retrieval (ISMIR), 2002.
+
+</body>
+
+</html>
