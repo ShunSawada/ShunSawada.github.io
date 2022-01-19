@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="description" content="Shun Sawada" />
+  <title>Shun Sawada</title>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    a {
+      font-size: 100%;
+      font-weight: bold;
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+
+    .canvasWrapper {
+      padding: 0px;
+      height: 100%;
+      overflow: scroll;
+    }
+    #title {
+      background-color: #1483d5;
+    }
+  </style>
+
+</head>
+
+<body onload="init()">
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper light-blue darken-4">
+        <a href="#!" class="brand-logo center">Shun SAWADA</a>
+      </div>
+    </nav>
+  </div>
+  <!--
+  <section id = "title">
+  <div class="row">
+  <div class="col s12 m12">
+  aaaaaaaaaaaa
+</div>
+</div>
+</section>
+-->
+<div class="container">
+  <div class="section">
+    <h4 class="blue-text text-darken-4 header">ABOUT ME</h4>
+    <div class="row">
+      <div class="col s12 m12">
+
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">澤田 隼（Shun SAWADA）</span>
+            <h5 class="teal-text text-darken-1 header">所属:</h5>
+            <p>
+              <ul>
+                <li>
+                  東京理科大学 理工学部 情報科学科 助教
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="index.html">English</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h4 class="blue-text text-darken-4 header">RESEARCH AREA</h4>
+    <div class="row">
+      <div class="col s12 m12">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">音楽情報処理（MIR）</span>
+            <p>
+              <ul>
+                <li>
+                  機械学習 / 深層学習 / 教師なし学習
+                </li>
+                <li>
+                  音響信号処理
+                </li>
+                <li>
+                  拍節構造分析 / ビートトラッキング
+                </li>
+                <li>
+                  グルーピング構造分析 / 楽曲構造分析
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">ヒューマンコンピュータインタラクション（HCI）</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">自然言語処理（NLP）</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">認知心理学</span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <h4 class="blue-text text-darken-4 header">RESEARCH TOPICS</h4>
+    <div class="row">
+      <div class="col s12 m12">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">演奏音符列を対象とした楽器分類</span>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">音響教師モデルから記号生徒モデルへの知識蒸留</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">TransDrums: 大域的構造を保持したドラムパターンの差し替えシステム</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">教師なし旋律分割</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Melody2Vec: 旋律の分散表現</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">音響信号を対象とした音楽理論（GTTM）に基づく階層的順序構造の獲得</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">信号-記号相互最適化フレームワーク</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <h4 class="blue-text text-darken-4 header">DEMO</h4>
+    <div class="row">
+
+      <div class="col s12 m6">
+
+        <div class="card">
+          <div class="card-image">
+            <img src="img/systemcom.png">
+
+          </div>
+          <div class="card-content">
+            <span class="card-title">TransDrum</span>
+            <p>
+              TransDrumsは, 楽曲Aのドラムパターンを別の楽曲Bに転送し，置換されたドラムパターンで音響信号を合成するシステムです．
+              その際に楽曲Bの大域的なドラムパターンは保持され，小節単位のドラムパターンが楽曲Aのものに置換されます．
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="transDrum/index.html">link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="blue-text text-darken-4 header">PUBLICATIONS</h4>
+    <h5 class="teal-text text-darken-1 header">学術雑誌</h5>
+    <ol>
+      <li>
+        <p>
+          澤田 隼, 深山 覚, 後藤 真孝, 平田 圭二.
+          TransDrums: ドラムのフィルインとドラムパターン遷移確率に着目した2曲間のドラムパターン対応付け手法,
+          情報処理学会論文誌, Vol.61, No.4, pp.768—776, 2020年4月.
+        </p>
+      </li>
+      <li>
+        <p>
+          Tatsunori Hirai, Shun Sawada,
+          Melody2Vec: Distributed Representations of Melodic Phrases based on Melody Segmentation,
+          Journal of Information Processing, Vol.27, pp.278—286, March 2019.
+        </p>
+      </li>
+      <li>
+        <p>
+          澤田 隼, 竹川 佳成, 平田 圭二,
+          スペクトログラムの階層的クラスタリングを用いたタイムスパン・セグメンテーション抽出について,
+          情報処理学会論文誌, Vol.59, No.3, pp.941—950, 2018年3月.
+        </p>
+      </li>
+    </ol>
+
+    <h5 class="teal-text text-darken-1 header">国際会議（査読有）</h5>
+    <ol>
+      <li>
+        <p>
+          Shun Sawada, Kazuyoshi Yoshii, Keiji Hirata,
+          Unsupervised Melody Segmentation Based on a Nested Pitman-Yor Language Model,
+          Workshop on NLP for Music and Audio (NLP4MusA), October 2020.
+        </p>
+      </li>
+      <li>
+        <p>
+          Shun Sawada, Satoru Fukayama, Masataka Goto, Keiji Hirata:
+          TransDrums: A Drum Pattern Transfer System Preserving Global Pattern Structure,
+          Proceedings of the 44th International Conference on Acoustics, Speech, and Signal Processing (ICASSP2019), pp. 391—395, May 2019.
+        </p>
+      </li>
+      <li>
+        <p>
+          Shun Sawada, Yoshinari Takegawa, Keiji Hirata,
+          On Hierarchical Clustering of Spectrogram,
+          Music Technology with Swing, 13th International Symposium, CMMR 2017, Matosinhos, Portugal, September 25—28, 2017, Revised Selected Papers, Lecture Notes in Computer Science (LNCS), Vol. 11265, pp.226—237, Springer, November 2018.
+        </p>
+      </li>
+    </ol>
+
+    <h5 class="teal-text text-darken-1 header">国内会議（主著，査読無）</h5>
+
+    <ol>
+      <li>
+        <p>
+          澤田 隼，信号教師モデルから記号生徒モデルへの知識蒸留を用いた演奏音符列を対象とした楽器分類，情報処理学会 第83回全国大会, 5D-04, pp.1—2, 2022年3月.
+        </p>
+      </li>
+      <li>
+        <p>
+          澤田 隼, 竹川 佳成，平田 圭二, GTTMの大域的情報を考慮した音響信号の分節の最適化 - 記号と信号処理の相互作用フレームワークの構築に向けて -, 情報処理学会 第81回全国大会, 5D-07, pp.1—2, 2019年3月.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          澤田 隼, 深山 覚, 後藤 真孝, 平田 圭二, ドラムパターンの大域的構造と音響特徴量パラメタの相互作用, 第122回 情報処理学会 音楽情報科学研究報告, 2019-MUS-122, No.10, pp.1—6, 2019年2月.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          澤田 隼, 深山 覚, 後藤 真孝, 平田 圭二, 大域的構造を考慮したドラムパターンの差し替えシステム, 第119回 情報処理学会 音楽情報科学研究報告, 2018-MUS-119, No.43, pp.1—7, 2018年6月.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          澤田 隼, 竹川 佳成, 平田 圭二, 音楽音響信号の階層的クラスタリングを用いたGTTMタイムスパン木の抽出法について, 情報処理学会 第80回全国大会, 3N-07, pp.1—2, 2018年3月.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          澤田 隼, 竹川 佳成, 平田 圭二, 記号と信号処理の相互作用フレームワークの構築に向けたGTTMの大域的構造を考慮した音響信号の分節の調整,
+          第118回 情報処理学会 音楽情報科学研究報告, 2018-MUS-118, No.20, pp.1—6, 2018年2月. <b>[情報処理学会 山下記念研究賞]</b>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          澤田 隼, 竹川 佳成, 平田 圭二, スペクトログラムの階層的クラスタリングを用いたグルーピング構造分析について, 第114回 情報処理学会 音楽情報科学研究報告, 2017-MUS-114, No.7, pp.1—8, 2017年2月.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          澤田 隼, 竹川 佳成, 平田 圭二, 音楽音響信号を対象とするGTTM 的アプローチによるグルーピング構造の抽出について, 第111回 情報処理学会 音楽情報科学研究報告, 2016-MUS-111, No.23, pp.1—6, 2016年5月. <b>[学生奨励賞]</b>
+        </p>
+      </li>
+    </ol>
+
+    <h5 class="teal-text text-darken-1 header">国内会議（共著，査読無）</h5>
+    <ol>
+      <li>
+        <p>
+          川村茂修，澤田　隼，大村英史，桂田浩一，線画の自動着色モデルに対するセマンティックセグメンテーション画像の活用，情報処理学会 第83回全国大会, 6ZG-04, pp.1—2, 2022年3月.
+        </p>
+      </li>
+      <li>
+        <p>
+          倉崎 大輔, 大村 英史, 澤田 隼, 東条 敏, 桂田 浩一, 和声構造を表現した木の改変によるリハーモナイゼーションシステム,  第133回 情報処理学会 音楽情報科学研究報告, 2022-MUS-133, No.xx, pp.1—xx, 2022年1月．
+        </p>
+      </li>
+      <li>
+        <p>
+          深代 勇樹, 大村 英史, 澤田 隼, 桂田 浩一, ドメイン敵対的ニューラルネットワークを用いた対数周波数スペクトログラム上の音色変換,  第133回 情報処理学会 音楽情報科学研究報告, 2022-MUS-133, No.xx, pp.1—xx, 2022年1月．
+        </p>
+      </li>
+      <li>
+        <p>
+          川村茂修，澤田隼，大村英史，桂田浩一，深層学習を用いた線画の自動着色モデルにおけるセグメンテーション画像の活用，コミック工学研究会 第6回研究発表会, pp.37—42, 2021年11月.
+        </p>
+      </li>
+      <li>
+        <p>
+          平井辰典, 澤田 隼, 接続コストに基づく後続メロディ候補の提示によるメロディ打ち込み支援インタフェース, 第132回 情報処理学会 音楽情報科学研究報告, 2021-MUS-132, No.13, pp.1—10, 2021年9月．
+        </p>
+      </li>
+      <li>
+        <p>
+          飯山 智晴, 澤田 隼, 大村 英史, 桂田 浩一, IPAを介した音素－調音データ変換のためのIPA継続長推定手法の検討, 日本音響学会2021年秋季研究発表会, 1-8-12, 2021年9月．
+        </p>
+      </li>
+      <li>
+        <p>
+          青柳 裕介, 鈴木 美穂子, 外崎 明子, 田畑 耕治, 桂田 浩一, 大村 英史, 澤田 隼, 周波数ピーク推定手法に基づくいびき様肺雑音の検出, 第20回 情報科学技術フォーラム (FIT2021), G-007, 2021年8月．
+        </p>
+      </li>
+      <li>
+        <p>
+          平井辰典, 澤田 隼, LSTMを用いたメロディ素片間の接続コストの算出, 第131回 情報処理学会 音楽情報科学研究報告, 2021-MUS-131, No.41, pp.1—7, 2021年6月．
+        </p>
+      </li>
+      <li>
+        <p>
+          平井辰典, 澤田 隼, GPRに基づくメロディセグメンテーションによるフレーズの分散表現の獲得, 第119回 情報処理学会 音楽情報科学研究報告, 2018-MUS-119, No.43, pp.1—8, 2018年6月. <b>[情報処理学会 山下記念研究賞]</b>
+        </p>
+      </li>
+    </ol>
+
+    <h5 class="teal-text text-darken-1 header">その他（講演など）</h5>
+    <ol>
+      <li>
+        <p>
+          平田 圭二(未来大), 北原 鉄朗(日大), 今井 慎太郎(国立音大), 東条 敏(JAIST), 植村 あい子(日大), 浜中 雅俊(理研), 松原 正樹(筑波大), 大村 英史, 秦野 亮, 澤田 隼(理科大), 青木 奈央(JAIST), 国際会議CMMR 2021開催報告, 第133回 情報処理学会 音楽情報科学研究報告, 2022-MUS-133, No.XX, pp.x—x, 2022年1月．
+        </p>
+      </li>
+      <li>
+        <p>
+          澤田 隼, 三浦 寛也, 大石 康智, 竹川 佳成, 平井 辰典, 平田 圭二, 特別企画「音楽情報科学研究会運営委員紹介その１」, 第132回 情報処理学会 音楽情報科学研究報告, 2021-MUS-132, No.25, pp.1—2, 2021年9月．
+        </p>
+      </li>
+      <li>
+        <p>
+          吉井和佳, 呉益明, 錦見亮, 澤田隼, 東条敏, 北原鉄朗, 前澤陽, 特別企画「音楽情報処理に関する最新研究動向の紹介」, 第116回 情報処理学会 音楽情報科学研究会, 2017年8月．
+        </p>
+      </li>
+    </ol>
+
+    <h5 class="teal-text text-darken-1 header">学会活動</h5>
+    <ol>
+      <li>
+        <p>
+          情報処理学会 音楽情報科学研究会 運営委員（2021年4月から現在に至る）
+        </p>
+      </li>
+      <li>
+        <p>
+          The 15th International Symposium on Computer Music Multidisciplinary Research (CMMR 2021)　Steering Committee Local Organizer（2021年度）
+        </p>
+      </li>
+    </ol>
+
+
+  </div>
+</div>
+
+</body>
+
+</html>
